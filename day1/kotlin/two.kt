@@ -27,5 +27,5 @@ fun main(args: Array<String>) {
             
         }
     }
-    print("\n\nNo three numbers equal the sum of 2020")
+    print("\n\nNo sum of three numbers equal 2020")
 }

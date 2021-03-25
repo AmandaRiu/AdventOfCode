@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
             }
         }
     }
-    printMessage("No two numbers equal the sum of 2020")
+    printMessage("No sum of two numbers equal 2020")
 }
 
 fun printMessage(msg: String) {

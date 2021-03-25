@@ -5,15 +5,21 @@ _Arguments have been saved to a text file_: `args.txt`
 **Compile with**
 
 ```
-kotlinc one.kt -include-runtime -d one.jar
-kotlinc two.kt -include-runtime -d two.jar
+// Kotlin
+kotlinc one.kt -include-runtime -d kotlin/one.jar
+kotlinc two.kt -include-runtime -d kotlin/two.jar
 ```
 
 **Run with**
 
 ```
-cat args.txt | xargs -t java -jar one.jar
-cat args.txt | xargs -t java -jar two.jar
+// Kotlin
+cat args.txt | xargs -t java -jar kotlin/one.jar
+cat args.txt | xargs -t java -jar kotlin/two.jar
+
+// Python
+cat args.txt | xargs -t python3 python/one.py
+cat args.txt | xargs -t python3 python/two.py
 ```
 
 ---
