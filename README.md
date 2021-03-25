@@ -1,6 +1,6 @@
 # AdventOfCode
 
-This repository contains my solutions to the challenges provided by adventofcode.com.
+This repository contains my solutions to the fun challenges provided by adventofcode.com.
 
 ## Description
 
